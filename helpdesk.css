@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1280px;
+    
+    background: #0B0126;
+    
+}
+nav{
+   
+    position: absolute;
+    width: 1440px;
+    height: 155px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(27, 0, 28, 0.86);
+    }
+    nav ul{
+        float:right;
+        margin-right: 20px;
+        bottom: 45px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 36px;
+        margin: 75px 28px;
+    }
+    nav ul li a{
+    
+        color: rgba(210, 210, 210, 0.808);
+        
+        
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    border-radius: 3px;
+    text-decoration: none;
+    }
+     a:hover{
+        color: rgb(245, 245, 245);
+        transition: .3s;
+    }
+#image{
+    position: absolute;
+width: 817px;
+height: 521px;
+left: -34px;
+top: 807px;
+
+
+}
+#logo{
+    position: absolute;
+width: 163px;
+height: 90px;
+left: 29px;
+top: 22px;
+
+}
+.rectangle-1{
+    position: absolute;
+width: 178px;
+height: 746px;
+left: 29px;
+top: 196px;
+
+background: rgba(156, 74, 138, 0.21);
+border-radius: 42px;
+}
+.rectangle-2{
+    
+position: absolute;
+width: 181px;
+height: 1219px;
+left: 239px;
+top: 34px;
+
+background: rgba(156, 74, 138, 0.21);
+border-radius: 28px;
+}
+.rectangle-3{
+    position: absolute;
+width: 170px;
+height: 947px;
+left: 451px;
+top: 197px;
+
+background: rgba(156, 74, 138, 0.21);
+border-radius: 47px;
+
+}
+#hello p1{
+    position: absolute;
+width: 590px;
+height: 131px;
+left: 720px;
+top: 324px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 124px;
+
+color: #FEE500;
+
+}
+#hello p2{
+    position: absolute;
+width: 670px;
+height: 87px;
+left: 720px;
+top: 428px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 91px;
+
+color: #FFFFFF;
+
+}
+.container1{
+    position: absolute;
+width: 648px;
+height: 420px;
+left: 720px;
+top: 640px;
+padding: 25px 20px;
+background: rgba(25, 24, 27, 0.71);
+border-radius: 53px;
+}
+.container1 h1{
+    position: absolute;
+height: 43px;
+left: 165px;
+top: 11px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 49px;
+line-height: 63px;
+
+color: rgba(255, 255, 255, 0.72);
+
+
+
+}
+.container1 form{
+    text-align: center;
+    padding: 114px 20px;;
+}
+form textarea{
+    width: 555px;
+    height: 135px;
+    left: 768px;
+    top: 792px;
+    
+border-radius: 42px;
+}
+form button{
+
+    background: rgb(5, 0, 15);
+    color: rgb(255, 255, 255);
+   padding: 6px 0px;
+    align-items: center;
+    width: 174px;
+    height: 50px;
+    left: 948px;
+    top: 972px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.36);
+    border-radius: 17px;
+    
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 35px;
+
+}
+button:hover{
+    background: transparent;
+    border: 2px solid bisque;
+    cursor: pointer;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0px;
+
+}

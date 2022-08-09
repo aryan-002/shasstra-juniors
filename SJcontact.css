@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1280px;
+    
+    background: linear-gradient(129.5deg, rgba(130, 84, 128, 0.67) 36.2%, rgba(202, 42, 195, 0) 104.84%);
+}
+.rectangle{
+    position: absolute;
+width: 791px;
+height: 781px;
+left: 223px;
+top: 235px;
+
+background: rgba(98, 43, 107, 0.78);
+border-radius: 47px;
+}
+#heading{
+    position: absolute;
+width: 607px;
+height: 146px;
+left: 407px;
+top: 0px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 113px;
+line-height: 146px;
+
+color: #FFFFFF;
+
+
+}
+#logo{
+    position: absolute;
+width: 131px;
+height: 65px;
+left: 19px;
+top: 17px;
+
+}
+.rectangle-navbar{
+width: 1440px;
+height: 148px;
+left: 0px;
+top: 0px;
+
+background: #150C27;
+}
+.rectangle-1{
+    position: absolute;
+width: 641px;
+height: 247px;
+left: 298px;
+top: 312px;
+
+background: rgba(217, 217, 217, 0.72);
+border-radius: 40px;
+
+}
+.rectangle-2{
+    position: absolute;
+width: 641px;
+height: 247px;
+left: 298px;
+top: 640px;
+
+background: rgba(217, 217, 217, 0.72);
+border-radius: 40px;
+}
+.about-text p1{
+    position: absolute;
+    width: 387px;
+    height: 144px;
+    left: 488px;
+    top: 375px;
+    
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    
+    color: rgba(0, 0, 0, 0.96);
+    
+}
+.about-text p2{
+    position: absolute;
+width: 387px;
+height: 144px;
+left: 493px;
+top: 697px;
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+color: rgba(0, 0, 0, 0.96);
+
+}
+.rectangle-3{
+    position: absolute;
+width: 190px;
+height: 187px;
+left: 1159px;
+top: 188px;
+
+background: rgb(62, 1, 122);
+    border-radius: 100% 0% 100% 0% / 83% 20% 80% 17% ;
+    
+   
+}
+.rectangle-4{position: absolute;
+   
+width: 190px;
+height: 187px;
+left: 1159px;
+top: 718px;
+
+background: rgb(62, 1, 122);
+border-radius: 100% 0% 100% 0% / 83% 20% 80% 17% ;
+}
+.rectangle-5{
+    position: absolute;
+width: 217px;
+height: 187px;
+left: 1159px;
+top: 453px;
+
+background: rgb(62, 1, 122);
+border-radius: 0% 100% 1% 99% / 0% 99% 1% 100% 
+
+}
+.rectangle-6{
+    position: absolute;
+    width: 217px;
+    height: 185px;
+    left: 1159px;
+    top: 994px;
+
+background: rgb(62, 1, 122);
+border-radius: 0% 100% 1% 99% / 0% 99% 1% 100% 
+}
+.rectangle-7{
+    position: absolute;
+    width: 149px;
+    height: 134px;
+    left: 1259px;
+    top: 342px;
+    background: #c57f00;
+border-radius: 46% 54% 68% 32% / 57% 47% 53% 43% ;
+}
+.rectangle-8{
+    position: absolute;
+    width: 140px;
+    height: 144px;
+    left: 1261px;
+    top: 871px;
+background: #c57f00;
+border-radius: 46% 54% 68% 32% / 57% 47% 53% 43% ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+
+    position: absolute;
+    width: 1699px;
+    height: 301px;
+    left: -168px;
+    top: 1096px;
+    
+    background: #160B28;
+}
+.footer-col h4{
+    width: 1699px;
+    left: -168px;
+    top: 1096px;
+    
+font-family: 'PT Sans';
+font-style: normal;
+color: #FFFFFF;
+
+}
+.footer-col{
+    width: 208px;
+    padding: 18px 76px;
+    background-color: #150C27;
+    font-family: 'PT Sans' ;
+    color: azure;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+.footer-col h4 ul li a{
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+    color: #fdfdfd;
+}
+.footer-col h4 ul li a:hover{
+    background-color: #fdfdfd;
+
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    color: grey;
+}
